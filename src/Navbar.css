@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    background: transparent;
+    color: rgb(172, 66, 66);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    z-index: 1000;
+  }
+  
+  .navbar.scrolled {
+    background-color: #333;
+    box-shadow: 0 4px 6px rgba(59, 193, 88, 0.813);
+  }
+  
+  .king {
+    display: flex;
+    align-items: center;
+  }
+  
+  .king li {
+    list-style: none;
+  }
+  
+  .king li a {
+    text-decoration: none;
+    color: rgb(115, 35, 35);
+    font-size: 40px;
+  }
+  
+  .toggle-button {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .toggle-button .bar {
+    width: 25px;
+    height: 5px;
+    background-color: rgb(251, 0, 0);
+    margin: 5px 0;
+  }
+  
+  .navlist {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navlist li {
+    margin: 0 10px;
+  }
+  
+  .navlist li a {
+    text-decoration: none;
+    color: rgb(222, 139, 139);
+    font-size: 28px;
+    transition: color 0.3s;
+  }
+  
+  .navlist li a:hover {
+    color: #ff6347; /* Change hover color */
+  }
+  
+  @media (max-width: 768px) {
+    .toggle-button {
+      display: flex;
+    }
+  
+    .navlist {
+      flex-direction: column;
+      width: 100%;
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #333;
+      padding: 0;
+    }
+  
+    .navlist.open {
+      display: flex;
+    }
+  
+    .navlist li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .navlist li a {
+      font-size: 20px;
+    }
+  }
+  

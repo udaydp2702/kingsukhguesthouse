@@ -1,0 +1,116 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, #272d33, #e9ecef);
+  padding: 20px;
+}
+
+.welcome-text {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.imgcont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row; /* Ensure image and text are in a row */
+}
+
+.text-container {
+  margin-right: 20px;
+  text-align: left; /* Align text to the left */
+}
+
+.text-container h1, .text-container h3 {
+  margin: 0;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.text-container .highlight {
+  color: #f56a79;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  height: auto;
+  border-radius: 10px;
+  margin-left: 20px; /* Add margin to separate the image from text */
+}
+
+.book {
+  margin-top: 20px;
+}
+
+.book-button {
+  background-color: #f56a79;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.book-button:hover {
+  background-color: #f43b58;
+}
+
+.book-button a {
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Loading effect for text */
+@keyframes loading {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.text-container h1 {
+  animation: loading 1s ease-in-out forwards;
+}
+
+.text-container h3 {
+  animation: loading 1s ease-in-out forwards;
+}
+
+.text-container h1:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.text-container h1:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.text-container h1:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+/* Make the hero section responsive */
+@media (max-width: 768px) {
+  .imgcont {
+    flex-direction: column; /* Stack image and text vertically on small screens */
+  }
+
+  .text-container {
+    margin-right: 0;
+    margin-bottom: 20px; /* Add space between text and image */
+    text-align: center; /* Center text on small screens */
+  }
+
+  .hero-image {
+    margin-left: 0; /* Remove margin on small screens */
+  }
+}

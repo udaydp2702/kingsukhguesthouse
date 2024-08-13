@@ -1,0 +1,90 @@
+.footer-container {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footermain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .footermain > div {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footermain h2 a, .footermain h3 a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer1 h2 a {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .footer2 h2 a, .footer3 h2 a, .footer4 h2 a {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer1 b {
+    font-size: 14px;
+  }
+  
+  .footer2 h3, .footer3 h3, .footer4 h3 {
+    font-size: 14px;
+  }
+  
+  .buttton button {
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttton button:hover {
+    background-color: #ff5a5a;
+  }
+  
+  .icon a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .icon a:hover {
+    color: #ff7e5f;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .footermain {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footermain > div {
+      margin: 20px 0;
+    }
+  }
+  

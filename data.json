@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "todo": [
+    {
+      "todoText": "drink coffe",
+      "isCompleted": false,
+      "id": 3
+    },
+    {
+      "todoText": "moree",
+      "isCompleted": false,
+      "id": 10
+    },
+    {
+      "todoText": "test",
+      "isCompleted": false,
+      "id": 11
+    },
+    {
+      "todoText": "Assignment",
+      "isCompleted": false,
+      "id": 12
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

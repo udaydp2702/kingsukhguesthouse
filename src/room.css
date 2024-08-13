@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .rooms-container {
+    padding: 20px;
+    background-color: #ffffff;
+    
+    background: linear-gradient(to right, #272d33, #e9ecef);
+  }
+  
+  .room-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .room-header h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .room-header h1 {
+    font-size: 36px;
+    color: #eed6d3;
+  }
+  
+  .room-main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .room-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 350px;
+    text-align: center;
+  }
+  
+  .room-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .room-box h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .room-box p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .book-button button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .book-button button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .book-button button:hover {
+    background-color: #c0392b;
+  }
+  
+  @media (max-width: 768px) {
+    .room-main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .room-box {
+      max-width: 100%;
+    }
+  }
+  

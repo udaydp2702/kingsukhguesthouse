@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .gallery {
+    margin-top: 20px;
+  }
+  
+  .gallery h2 {
+    color: #333;
+  }
+  
+  .Gallery {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .carousel .d-block {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
