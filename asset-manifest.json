@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kingsukhguesthouse/static/css/main.d7bb836e.css",
+    "main.js": "/kingsukhguesthouse/static/js/main.315372e1.js",
+    "static/media/palash.webp-1.jpg": "/kingsukhguesthouse/static/media/palash.webp-1.1c4c43531e458357eb68.jpg",
+    "static/media/out.jpg-1.jpg": "/kingsukhguesthouse/static/media/out.jpg-1.46ae3e5e2f34a24a8c78.jpg",
+    "static/media/flower.jpg-page-001.jpg": "/kingsukhguesthouse/static/media/flower.jpg-page-001.827b8fcb1a9cda5d6626.jpg",
+    "static/media/ayodhya.webp-page-001.jpg": "/kingsukhguesthouse/static/media/ayodhya.webp-page-001.878c872d6cdebecc8380.jpg",
+    "static/media/mithonDam.webp-1.jpg": "/kingsukhguesthouse/static/media/mithonDam.webp-1.66ffb8c8fbf1bffcd542.jpg",
+    "static/media/baranti.webp-1.jpg": "/kingsukhguesthouse/static/media/baranti.webp-1.ece596491927b5e2e4f5.jpg",
+    "static/media/room1.jpg-1.jpg": "/kingsukhguesthouse/static/media/room1.jpg-1.6fbd09fcc14edac1af31.jpg",
+    "static/media/small.jpg-1.jpg": "/kingsukhguesthouse/static/media/small.jpg-1.160102f2ec4fb59689ff.jpg",
+    "static/media/service.jpg-page-001.jpg": "/kingsukhguesthouse/static/media/service.jpg-page-001.c4226b34e2f1fb6ac8ab.jpg",
+    "static/media/header.jpg-page-001 (1).jpg": "/kingsukhguesthouse/static/media/header.jpg-page-001 (1).7957f99fb3e23705bba2.jpg",
+    "index.html": "/kingsukhguesthouse/index.html",
+    "main.d7bb836e.css.map": "/kingsukhguesthouse/static/css/main.d7bb836e.css.map",
+    "main.315372e1.js.map": "/kingsukhguesthouse/static/js/main.315372e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7bb836e.css",
+    "static/js/main.315372e1.js"
+  ]
+}
